@@ -23,6 +23,14 @@
       </dependency>
     </dependencies>
   </dependencyManagement>
+   <repositories>
+        <repository>
+            <id>insecure</id>
+            <name>Insecure Repository</name>
+            <!-- BAD! Use HTTPS -->
+            <url>http://insecure-repository.example</url>
+        </repository>
+    </repositories>
   
   <dependencies>
     <dependency>
